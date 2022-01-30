@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/add_button.xml" value="0.21770833333333334" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/black_gradient.xml" value="0.1046875" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/brend_card.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/categories_active.xml" value="0.21435897435897436" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/categories_rectangle.xml" value="0.21435897435897436" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_dialog_btn.xml" value="0.11875" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_edit_text.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_login.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_order.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_order_buttom.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_settings.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/custom_spinner.xml" value="0.11805555555555555" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/dealline.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/dialog_background_inset.xml" value="0.11875" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_back.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_ellipse.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_holodilnik.xml" value="0.21435897435897436" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_otchot.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_otpravit.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_platej.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_ploteje.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_rectangle_39.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_search.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_share.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/ic_zakaz.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/icon_reports.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/icon_zakaz.xml" value="0.19635416666666666" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/password_line_vertical.xml" value="0.16" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/recycler_scrool.xml" value="0.13958333333333334" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/rigt_to_left_gradient.xml" value="0.12361111111111112" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/rv_item.xml" value="0.21435897435897436" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/scroll_thrack.xml" value="0.21435897435897436" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/shape_dg.xml" value="0.1" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/spinner_background.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/spinner_item.xml" value="0.10859375" />
+        <entry key="..\:/project/Delline/app/src/main/res/drawable/vertical_password_line.xml" value="0.12361111111111112" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/activity_view_activty.xml" value="0.13" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/brend_item.xml" value="0.18020833333333333" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/buy_dialog.xml" value="0.22" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/categories_item.xml" value="0.33" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/client_reconciliation.xml" value="0.2" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/daily_reports_dialog.xml" value="0.151171875" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/debit_credit_dialog.xml" value="0.16" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_brend_report.xml" value="0.151171875" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_brends.xml" value="0.18" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_catigories.xml" value="0.16" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_login.xml" value="0.14" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_menu.xml" value="0.11" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_password.xml" value="0.15" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_reports_brend.xml" value="0.16" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_shop.xml" value="0.18" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/fragment_shoping.xml" value="0.22" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/online_toast.xml" value="0.151171875" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/product_item.xml" value="0.25" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/reports_dialog.xml" value="0.2" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/send_dialog.xml" value="0.18" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/shop_dialog.xml" value="0.17" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/shoping_item.xml" value="0.16" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/project/Delline/app/src/main/res/layout/test.xml" value="0.151171875" />
+        <entry key="..\:/project/Delline/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16328125" />
+        <entry key="..\:/project/Delline/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

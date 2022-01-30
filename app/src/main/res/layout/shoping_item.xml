@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Samsung RT6000K 530л"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/productFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productName"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:text="Система Twin Cooling Plus"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ratingNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productFunction"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:text="4.7"
+            android:textColor="#FFD04A"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <RatingBar
+            android:layout_below="@id/productFunction"
+            android:id="@+id/ratingBar_small"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:numStars="5"
+            android:rating="4"
+            android:theme="@style/MyRatingBar" />
+    </RelativeLayout>
+</RelativeLayout>

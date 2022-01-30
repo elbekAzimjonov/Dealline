@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="322dp"
+    android:layout_height="145dp">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFD04A">
+
+        <ImageView
+            android:id="@+id/ic_buy"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_share" />
+
+        <TextView
+            android:id="@+id/bodyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/ic_buy"
+            android:text="Отправить"
+            android:textColor="#2D2C2D"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/sendBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_send_dialog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="18dp"
+            android:text="Отправить документы?"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/sendBar"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_dialog_btn"
+        android:text="Назад"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="102dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/sendBar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/custom_dialog_btn"
+        android:text="Далее"
+        android:textSize="12sp" />
+</RelativeLayout>

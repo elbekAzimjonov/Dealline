@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/passwordFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.elbek.delline.Fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_brendsFragment"
+            app:destination="@id/brendsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_reportsBrendFragment"
+            app:destination="@id/reportsBrendFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_brendReportFragment"
+            app:destination="@id/brendReportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/brendsFragment"
+        android:name="com.elbek.delline.Fragments.BrandsFragment"
+        android:label="fragment_brends"
+        tools:layout="@layout/fragment_brends">
+        <action
+            android:id="@+id/action_brendsFragment_to_catigoriesFragment"
+            app:destination="@id/catigoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/catigoriesFragment"
+        android:name="com.elbek.delline.Fragments.CatigoriesFragment"
+        android:label="fragment_catigories"
+        tools:layout="@layout/fragment_catigories">
+        <action
+            android:id="@+id/action_catigoriesFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+        <argument
+            android:name="brandName"
+            app:argType="com.elbek.delline.models.BrandModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.elbek.delline.Fragments.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop">
+        <action
+            android:id="@+id/action_shopFragment_to_shopingFragment"
+            app:destination="@id/shopingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shopingFragment"
+        android:name="com.elbek.delline.Fragments.ShopingFragment"
+        android:label="fragment_shoping"
+        tools:layout="@layout/fragment_shoping" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.elbek.delline.Fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_passwordFragment"
+            app:destination="@id/passwordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.elbek.delline.Fragments.PasswordFragment"
+        android:label="fragment_password"
+        tools:layout="@layout/fragment_password">
+        <action
+
+            android:id="@+id/action_passwordFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:popEnterAnim="@animator/nav_default_enter_anim"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportsBrendFragment"
+        android:name="com.elbek.delline.Fragments.ReportsBrendFragment"
+        android:label="fragment_reports_brend"
+        tools:layout="@layout/fragment_reports_brend" />
+    <fragment
+        android:id="@+id/brendReportFragment"
+        android:name="com.elbek.delline.Fragments.BrendReportFragment"
+        android:label="fragment_brend_report"
+        tools:layout="@layout/fragment_brend_report" />
+</navigation>

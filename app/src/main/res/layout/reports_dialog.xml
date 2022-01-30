@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFD04A">
+
+        <ImageView
+            android:id="@+id/ic_buy"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_graph" />
+
+        <TextView
+            android:id="@+id/bodyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/ic_buy"
+            android:text="Отчёты"
+            android:textColor="#2D2C2D"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:buttonTint="@color/black"
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ежедневные отчёты"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <RadioButton
+           android:buttonTint="@color/black"
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Клиентская Акт-Сверка"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:buttonTint="@color/black"
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дебит кредит"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_dialog_btn"
+        android:text="Назад"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/radioGroup"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/custom_dialog_btn"
+        android:text="Далее"
+        android:textSize="12sp" />
+</RelativeLayout>

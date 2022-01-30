@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    tools:context=".Fragments.LoginFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_dealline_yellow" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_login"
+        android:text="Войти"
+        android:textColor="#2D2C2D"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/parol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/ic_password"
+        android:drawableEnd="@drawable/ic_see"
+        android:drawablePadding="10dp"
+        android:hint="пароль"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="5dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="5dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/parol"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:hint="логин"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="5dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="5dp"
+        android:textSize="12sp" />
+</RelativeLayout>

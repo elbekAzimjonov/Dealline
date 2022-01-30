@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.BrandsFragment">
+
+    <RelativeLayout
+        android:id="@+id/imageTop"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/samsung"
+        android:scaleType="centerCrop">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/black_gradient" />
+
+        <LinearLayout
+            android:id="@+id/onConteiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="37dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/onBack"
+                android:layout_width="18dp"
+                android:layout_height="11dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_back_yellow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_toRightOf="@+id/onBack"
+                android:text="Меню"
+                android:textColor="#FFD04A"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/onConteiner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/shop_container"
+            android:background="@drawable/ic_rectangle_39"
+            android:drawableEnd="@drawable/ic_search"
+            android:hint="Поиск..."
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="5dp"
+            android:paddingStart="14dp"
+            android:paddingEnd="5dp"
+            android:textColor="#FFD04A"
+            android:textColorHint="#EDBC2F"
+            android:textCursorDrawable="@null"
+            android:textSize="12sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/shop_container"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/onConteiner"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/shopingCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_shop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_above="@id/shopingCard"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toRightOf="@id/shopingCard"
+                android:background="@drawable/ic_shop_message"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/brend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageTop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Бренды"
+        android:textColor="#2D2C2D"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/brendRecycler"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/brend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="12dp"
+        app:spanCount="2"
+        tools:listitem="@layout/brend_item" />
+
+</RelativeLayout>
